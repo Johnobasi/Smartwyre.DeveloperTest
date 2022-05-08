@@ -22,8 +22,9 @@ namespace Smartwyre.DeveloperTest.Tests
 
             MakePaymentRequest makePaymentRequest = new()
             {
-                CreditorAccountNumber = "223213213235",
-                DebtorAccountNumber = "453454364535",
+                //change account number values 
+                CreditorAccountNumber = "223213213299",
+                DebtorAccountNumber = "453454364544",
                 Amount = Convert.ToDecimal(25.75),
                 PaymentDate = DateTime.UtcNow,
                 PaymentScheme = PaymentScheme.BankToBankTransfer
